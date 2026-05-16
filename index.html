@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SURAFEL WARKAYE | MINI FRONTEND WEBSITE</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+
+
+
+
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">TO BUILD OUR FEATURES</div>
+
+<div class="nav-links">
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#apply">Apply</a>
+</div>
+
+<div class="toggle" onclick="toggleTheme()"></div>
+
+</nav>
+</header>
+
+
+<section class="hero">
+<div>
+<h1>Hello, I'm <span>Surafel Warkaye</span></h1>
+
+<p>
+I specialize in modern website development and data science solutions. 
+My work focuses on creating intelligent, scalable, and visually engaging digital systems that solve real-world problems.
+</p>
+
+</div>
+
+<div class="hero-card">
+<p>📍 Bahir Dar University</p>
+<p>💻 Web Development Expert</p>
+<p>📊 Data Science Enthusiast</p>
+</div>
+</section>
+
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+
+<p class="section-pitch">
+I combine the power of frontend development with data science to build high-performance applications. 
+My goal is to transform complex data into meaningful insights while designing clean and user-friendly interfaces.
+</p>
+
+<p style="text-align:center; max-width:600px; margin:auto;">
+I am passionate about learning modern technologies and developing full-stack solutions that are efficient, scalable, and impactful.
+</p>
+</section>
+
+
+<section id="apply">
+<h2 class="section-title">Application Form</h2>
+
+<p class="section-pitch">
+This form allows individuals or organizations to connect with me for collaboration, projects, or professional opportunities 
+in web development and data science.
+</p>
+
+<div class="form-container">
+<form>
+
+<div class="input-group">
+<input type="text" placeholder="Full Name" required>
+</div>
+
+<div class="input-group">
+<input type="email" placeholder="Email Address" required>
+</div>
+
+<div class="input-group">
+<input type="tel" placeholder="Phone Number" required>
+</div>
+
+<div class="input-group" >
+<select required>
+<option value="">Select Position</option>
+<option>Frontend Developer</option>
+<option>Data Analyst</option>
+<option>Machine Learning</option>
+<option>AI</option>
+</select>
+</div>
+
+<div class="input-group">
+<textarea rows="4" placeholder="Why should we choose you?" required></textarea>
+</div>
+
+<div class="input-group">
+<input type="file" required>
+</div>
+
+<button type="submit">Submit Application</button>
+
+</form>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Surafel Warkaye HTML/CSS Simple Tasks.</p>
+</footer>
+
+<script>
+function toggleTheme(){
+  document.body.classList.toggle("light");
+}
+</script>
+
+</body>
+</html>
